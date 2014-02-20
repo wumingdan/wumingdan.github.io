@@ -1,7 +1,53 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Love Landy</title>
+
+    <style>
+        #l-frame{
+            margin-top: 100px;
+            width: 500px;
+            height: 300px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
 <body>
 <h1>Hello Landy</h1>
 <p>I'm sorry, smile...</p>
+
+
+
+
+
+
+<div id="l-frame">
+<canvas id="canvas" width="500" height="300"></canvas>
+</div>
+
+    <script>
+        var b = document.body;
+        var c = document.getElementById('canvas');
+        var a = c.getContext('2d');
+        document.body.clientWidth;
+        b = c;
+        (function (a, b, c, d, e, f, g, h, i, j, k, l, m, n) {
+            function o() {
+                a.font = n + m, a.globalCompositeOperation = "source-over";
+                //var gradient=a.createLinearGradient(0,0,c.width,0);
+                //gradient.addColorStop("0","magenta");
+                //gradient.addColorStop("0.5","blue");
+                //gradient.addColorStop("1.0","red");
+                a.fillStyle='#000';
+                a.fillText(j[i++ % 10], n + rn(e / 1.5), n + rn(f / 1.5))
+            }
+            d = ["rgba(255, 0, 119, 0.7)", "rgba(170, 238, 34, 0.7)", "rgba(4, 219, 229, 0.7)", "rgba(255, 180, 18, 0.7)"], j = ["i love you.", "i miss you.", "you're perfect.", "you are beautiful.", "remember when...", "you are the one.", "you are my world.", "remember the days...", "you are my heart.", "i breathe for you."], l = ["xor", "lighter"], m = "px Futura, Helvetica, sans-serif", g = h = i = k = 0, rn = function (a) {
+                return ~~(Math.random() * a)
+            }, c.width = e = 800, c.height = f = 500, n = (e + f) / 40, a.fillStyle = "#222", a.fillRect(0, 0, e, f), a.shadowBlur = 100,
+            function p() {
+                k % 15 || (b.style.backgroundColor = d[g++ % 4]), a.shadowColor = d[k % 4], k % 200 || o(), k++ % 50 || (a.globalCompositeOperation = l[h++ % 2]), a.fillText("♥", rn(e), rn(f)), setTimeout(p, 35)
+            }()
+        })(a, b, c)
+    </script>
 </body>
 </html>
