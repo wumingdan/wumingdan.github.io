@@ -1,27 +1,17 @@
 ---
 layout: page
-title: Hello World
-tagline: my playground
+title: Hello My World
+tagline: your playground
 ---
 {% include JB/setup %}
 
 一个应该不怎么用，但又必须要存在的地方。
 
-Sample [link](http://www.baidu.com).
+## Quick start
 
-## Title 1
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
+<video width="854" height="480" src="/custom/Landy-1.mp4" controls="controls">
+浏览器不支持 video 标签。
+</video>
 
 ## Post list
 
