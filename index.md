@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello My World
+title: Hello, My World
 tagline: your playground
 ---
 {% include JB/setup %}
