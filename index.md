@@ -5,7 +5,7 @@ tagline: your playground
 ---
 {% include JB/setup %}
 
-一个应该不怎么用，但又必须要存在的地方。
+测试测试测试
 
 ## Quick start
 

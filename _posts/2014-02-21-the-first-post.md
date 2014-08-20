@@ -21,7 +21,7 @@ tags: []
 
 ### 文章内容
 
-[wordpress](https://wordpress.org/) 可能使用起来更方便点，但是作为一个 `技术人员` 咱们稍微有点难度吧，难不倒你的:)。
+[wordpress](https://wordpress.org/) 可能使用起来更方便点，但是作为一个 `技术人员` 咱们稍微有点难度吧~。
 
 ### 编译发布
 
