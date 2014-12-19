@@ -9,7 +9,7 @@ tagline: your playground
 
 ## Quick start
 
-<video width="854" height="480" src="/custom/Landy.mp4" controls="controls" onclick="_hmt.push(['_trackEvent', 'video', 'play', 'Landy预告片']);">
+<video id='"<' width="854" height="480" src="/custom/Landy.mp4" controls="controls" onclick="_hmt.push(['_trackEvent', 'video', 'play', 'Landy预告片']);">
 浏览器不支持 video 标签。
 </video>
 
