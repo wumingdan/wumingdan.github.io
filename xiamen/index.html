@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XiaMen</title>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="sb.js"></script>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		.w100{
+			width: 1280px;
+			margin-bottom: 20px;
+		}
+
+		.w50{
+			width: 600px;
+			height: 400px;
+			margin: 0 20px 20px 0;
+		}
+
+		.w3{
+			width: 400px;
+			height: 600px;
+			margin: 0 220px 20px 0;
+		}
+
+		img{
+			box-shadow: 3px 3px 20px #ccc;
+			border-radius: 8px;
+			opacity: 0;		
+		}
+
+		body{
+			background: url(img/egg_shell.jpg) repeat;
+			font-family: 'Open Sans Condensed','Arial Narrow', serif;
+		}
+
+		#t{
+			color: #524F4E;
+			text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+			font-size: 25px;
+			line-height: 25px;
+			margin: 10px auto 15px;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="t">
+		2012/07/14 - 07/17
+	</div>
+
+	<div id="imgs">
+		<img class="w100" isrc="img/miamen1.jpg" src="" alt="loading" />
+		<img class="w100" isrc="img/miamen2.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_6945.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_6946.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_6947.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_6952.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_6963.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_6967.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_6987.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_6988.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_6989.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_6991.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7009.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7011.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7020.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7030.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7035.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7037.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7038.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7054.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7059.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7065.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7070.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7077.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7078.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7095.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7097.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7100.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7103.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7109.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7141.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7144.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7145.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7158.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7170.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7177.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7232.jpg" src="" alt="loading" />
+		<img class="w50" isrc="img/IMG_7224.jpg" src="" alt="loading" />
+
+		<img class="w3" isrc="img/IMG_7171.jpg" src="" alt="loading" />
+		<img class="w3" isrc="img/IMG_7176.jpg" src="" alt="loading" />
+
+		<img class="w3" isrc="img/IMG_7056.jpg" src="" alt="loading" />
+		<img class="w3" isrc="img/IMG_7175.jpg" src="" alt="loading" />
+
+		<img class="w50" isrc="img/IMG_7204.jpg" src="" alt="loading" />
+	</div>
+</div>
+
+<script type="text/javascript">
+(function(){
+
+	$("img").scrollBind(function cb(){
+
+		$(this).attr("src", $(this).attr("isrc"));
+
+		$(this).animate({ opacity: 1 }, 500);
+	});
+
+})()
+</script>
+
+</body>
+</html>
